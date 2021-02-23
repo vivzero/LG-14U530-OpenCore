@@ -16,7 +16,7 @@
 | BIOS (UEFI) | 14U530F9 (04/17/2014) |
 
 ## It works Partially
-- Wi-Fi doesn't work after waking up from sleep.
+- Wi-Fi doesn't work after waking up from sleep. (sometimes)
 - Bluetooth has short range due to AirportItlwm.
 - VGA Port works, but unplugging detection is broken.
 
