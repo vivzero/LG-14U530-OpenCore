@@ -17,7 +17,7 @@
 
 ## It works Partially
 - Wi-Fi doesn't work after waking up from sleep. (sometimes)
-- Bluetooth has short range due to AirportItlwm.
+- Bluetooth has short range because of AirportItlwm.
 - VGA Port works, but unplugging detection is broken.
 
 ## It does not work
