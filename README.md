@@ -18,7 +18,8 @@
 ## It works Partially
 - Wi-Fi doesn't work after waking up from sleep. (sometimes)
 - Bluetooth has short range because of AirportItlwm.
-- VGA Port works, but unplugging detection is broken.
+- VGA works, but unplugging detection is broken.
+- Touchpad pointing speed is slightly faster after boot.
 
 ## It does not work
 - dGPU (Optimus)
