@@ -20,6 +20,7 @@
 - Bluetooth has short range because of AirportItlwm.
 - VGA works, but unplugging detection is broken.
 - Touchpad pointing speed is slightly faster after boot.
+- Booting is slower than Windows. (SSD Trim Problem?)
 
 ## It does not work
 - dGPU (Optimus)
