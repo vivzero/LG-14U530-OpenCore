@@ -15,6 +15,8 @@
 | Audio | Realtek ALC282 (Layout ID: 86) |
 | BIOS (UEFI) | 14U530F9 (04/17/2014) |
 
+- xHCI Mode: Enabled (In BIOS Settings)
+
 ## Reported Issues
 - Wi-Fi doesn't work after waking up from sleep. (sometimes)
 - Bluetooth has short range because of AirportItlwm.
