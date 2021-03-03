@@ -15,7 +15,7 @@
 | Audio | Realtek ALC282 (Layout ID: 86) |
 | BIOS (UEFI) | 14U530F9 (04/17/2014) |
 
-## It works Partially
+## Reported Issues
 - Wi-Fi doesn't work after waking up from sleep. (sometimes)
 - Bluetooth has short range because of AirportItlwm.
 - VGA works, but unplugging detection is broken.
@@ -23,7 +23,7 @@
 - Booting is slower than Windows. (SSD Trim Problem?)
 
 ## It does not work
-- dGPU (Optimus)
+- dGPU
 - SD Card Reader (RTS5129)
 - Windows-only Function Keys
 - Hibernation (Mode 25)
