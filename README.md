@@ -15,17 +15,21 @@
 | Audio | Realtek ALC282 (Layout ID: 86) |
 | BIOS (UEFI) | 14U530F9 (04/17/2014) |
 
+## BIOS Settings
+- Legacy OS Boot: Off
+- PXE Boot: Off
 - xHCI Mode: Enabled (In BIOS Settings)
+- Secure Boot Option: Off
 
 ## Reported Issues
-- Wi-Fi doesn't work after waking up from sleep. (sometimes)
-- Bluetooth has short range because of AirportItlwm.
-- VGA works, but unplugging detection is broken.
-- Touchpad pointing speed is slightly faster after boot.
-- Booting is slower than Windows.
-
-## It does not work
-- dGPU
-- SD Card Reader (RTS5129)
-- Windows-only Function Keys
-- Hibernation (Mode 25)
+1. Intel Wi-Fi & Bluetooth are unstable.
+ - Wi-Fi doesn't work after waking up from sleep.
+ - Bluetooth has short range because of AirportItlwm.
+2. VGA works, but unplugging detection is broken.
+3. Touchpad pointing speed is slightly faster after boot.
+4. Booting is slower than Windows.
+5. Some features don't work.
+ - dGPU (GT720M)
+ - SD Card Reader (RTS5129)
+ - Windows-only Function Keys
+ - Hibernation (Mode 25)
