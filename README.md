@@ -23,13 +23,13 @@
 
 ## Reported Issues
 1. Intel Wi-Fi & Bluetooth are unstable.
- - Wi-Fi doesn't work after waking up from sleep.
- - Bluetooth has short range because of AirportItlwm.
+- Wi-Fi doesn't work after waking up from sleep.
+- Bluetooth has short range because of AirportItlwm.
 2. VGA works, but unplugging detection is broken.
 3. Touchpad pointing speed is slightly faster after boot.
 4. Booting is slower than Windows.
 5. Some features don't work.
- - dGPU (GT720M)
- - SD Card Reader (RTS5129)
- - Windows-only Function Keys
- - Hibernation (Mode 25)
+- dGPU (GT720M)
+- SD Card Reader (RTS5129)
+- Windows-only Function Keys
+- Hibernation (Mode 25)
