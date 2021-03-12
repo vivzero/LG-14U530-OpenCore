@@ -12,7 +12,7 @@
 | RAM | Apple HMT451S6BFR8A-PB * 2 |
 | LCD | LP140WF1-SPJ1 (LGD0406) |
 | WLAN | Intel Dual Band AC 7260 |
-| Audio | Realtek ALC282 (Layout ID: 86) |
+| Audio | Realtek ALC282 |
 | BIOS (UEFI) | 14U530F9 (04/17/2014) |
 
 ## BIOS Settings
@@ -25,9 +25,7 @@
 1. VGA works, but unplugging detection is broken.
 2. Touchpad pointing speed is slightly faster after boot.
 3. Booting is slower than Windows.
-4. Intel Wi-Fi & Bluetooth are unstable.
-- Wi-Fi doesn't work after waking up from sleep.
-- Bluetooth has short range because of AirportItlwm.
+4. Bluetooth has short range because of AirportItlwm.
 5. Some features don't work.
 - dGPU (GT720M)
 - SD Card Reader (RTS5129)
