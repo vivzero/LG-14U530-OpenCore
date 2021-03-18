@@ -26,7 +26,8 @@
 2. Touchpad pointing speed is slightly faster after boot.
 3. Booting is slower than Windows.
 4. Bluetooth has short range because of AirportItlwm.
-5. Some features don't work.
+5. After waking from sleep, Wi-Fi doesn't work.
+6. Some features won't work.
 - dGPU (GT720M)
 - SD Card Reader (RTS5129)
 - Windows-only Function Keys
