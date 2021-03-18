@@ -8,15 +8,15 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Fix ACPI Error</string>
+				<string>SSDT-ACPI.aml</string>
 				<key>Path</key>
-				<string>SSDT-ACPI-Fix.aml</string>
+				<string>SSDT-ACPI.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-BATTERY</string>
+				<string>SSDT-BATT.aml</string>
 				<key>Path</key>
 				<string>SSDT-BATT.aml</string>
 				<key>Enabled</key>
@@ -48,15 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-IMEI.aml</string>
-				<key>Path</key>
-				<string>SSDT-IMEI.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix Fn+F4</string>
+				<string>SSDT-LID.aml</string>
 				<key>Path</key>
 				<string>SSDT-LID.aml</string>
 				<key>Enabled</key>
@@ -64,7 +56,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable dGPU</string>
+				<string>SSDT-MCHC-SBUS.aml</string>
+				<key>Path</key>
+				<string>SSDT-MCHC-SBUS.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-NoHybGfx.aml</string>
 				<key>Path</key>
 				<string>SSDT-NoHybGfx.aml</string>
 				<key>Enabled</key>
@@ -72,7 +72,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>CPU Power Management</string>
+				<string>SSDT-PLUG.aml</string>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 				<key>Enabled</key>
@@ -80,7 +80,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Display Brightness</string>
+				<string>SSDT-PNLF.aml</string>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
@@ -88,25 +88,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Fix Fn+F4</string>
+				<string>SSDT-PTSWAK.aml</string>
 				<key>Path</key>
 				<string>SSDT-PTSWAK.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-RHUB.aml</string>
-				<key>Path</key>
-				<string>SSDT-RHUB.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -144,32 +128,6 @@
 		</array>
 		<key>Patch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Rename Method(CMB0._STA,0,N) to XSTA</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>PV9TVEEA</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>PVhTVEEA</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Rename Method(_LID,0,N) to XLID</string>
@@ -213,6 +171,32 @@
 				<data></data>
 				<key>Replace</key>
 				<data>SgZYUFNXAQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Rename Method(CMB0._STA,0,N) to XSTA</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>PV9TVEEA</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>PVhTVEEA</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -584,6 +568,14 @@
 				<integer>4275159040</integer>
 				<key>Comment</key>
 				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
+				<key>Enabled</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Address</key>
+				<integer>4278190080</integer>
+				<key>Comment</key>
+				<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
 				<key>Enabled</key>
 				<false/>
 			</dict>
@@ -1727,6 +1719,18 @@
 		</dict>
 		<key>ReservedMemory</key>
 		<array>
+			<dict>
+				<key>Address</key>
+				<integer>268435456</integer>
+				<key>Comment</key>
+				<string>HD3000: IGPU memory corruption errata</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Size</key>
+				<integer>268435456</integer>
+				<key>Type</key>
+				<string>Reserved</string>
+			</dict>
 			<dict>
 				<key>Address</key>
 				<integer>569344</integer>
