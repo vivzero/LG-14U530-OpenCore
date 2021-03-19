@@ -1,34 +1,31 @@
 # LG 14U530 Hackintosh
 
-## Before Install...
-- You have to choose "CFGLock.efi" in boot menu.
+## Before You Install...
+1. Choose CFGLock.efi in OpenCore Boot Menu.
+2. Disable CFG-Lock to follow the instructions on the screen.
+3. Press Ctrl+Alt+Del, and start installation.
 
-## Specification
-| Component | Details |
+## System Specs
+| Components | Details |
 | - | - |
 | CPU | Intel Core i5-4200U |
 | iGPU | Intel HD Graphics 4400 |
-| dGPU | Nvidia GeForce GT 720M |
-| RAM | Apple HMT451S6BFR8A-PB * 2 |
+| dGPU | NVIDIA GeForce GT 720M |
+| RAM | 2x HMT451S6BFR8A-PB |
 | LCD | LP140WF1-SPJ1 (LGD0406) |
 | WLAN | Intel Dual Band AC 7260 |
 | Audio | Realtek ALC282 |
-| BIOS (UEFI) | 14U530F9 (04/17/2014) |
+| BIOS | 14U530F9 (04/17/2014) |
 
-## BIOS Settings
+## BIOS Setup Configs
 - Legacy OS Boot: Off
 - PXE Boot: Off
-- xHCI Mode: Enabled (In BIOS Settings)
+- xHCI Mode: Enabled
 - Secure Boot Option: Off
 
 ## Reported Issues
-1. VGA works, but unplugging detection is broken.
-2. Touchpad pointing speed is slightly faster after boot.
-3. Booting is slower than Windows.
-4. Bluetooth has short range because of AirportItlwm.
-5. After waking from sleep, Wi-Fi doesn't work.
-6. Some features won't work.
-- dGPU (GT720M)
-- SD Card Reader (RTS5129)
-- Windows-only Function Keys
-- Hibernation (Mode 25)
+- VGA Output works, but disconnect detection is not working.
+- After waking from sleep, Wi-Fi doesn't work.
+- Bluetooth has short range because of Wi-Fi (Itlwm).
+- When use Trackpad at first after booting, its pointing speed is faster than usual.
+- Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernate mode 25.
