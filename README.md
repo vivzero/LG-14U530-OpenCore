@@ -3,9 +3,9 @@
 ## Before You Install...
 1. Choose CFGLock.efi in OpenCore Boot Menu.
 2. Disable CFG-Lock through following the instructions on the screen.
-3. Press Ctrl+Alt+Del, and start installation.
+3. Press Ctrl+Alt+Del, and then start installation.
 
-## System Specs
+## System Spec
 | Components | Details |
 | - | - |
 | CPU | Intel Core i5-4200U |
