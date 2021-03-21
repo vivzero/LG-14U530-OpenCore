@@ -26,7 +26,8 @@ It tested with macOS Catalina, and Big Sur.
 
 ## Reported Issues
 - VGA Output works, but disconnect detection is not working.
-- After waking from sleep, Wi-Fi doesn't work.
-- Bluetooth has short range because of Wi-Fi (Itlwm).
-- When use Trackpad at first after booting, its pointing speed is faster than usual.
 - Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernate mode 25.
+- [Itlwm] After waking from sleep, Wi-Fi doesn't work.
+- [Itlwm] Bluetooth has short range because of Wi-Fi.
+- [VoodooPS2] When use Trackpad at first after booting, its pointing speed is faster than usual.
+- If you attempt to hibernate, mini PCIe (Intel WLAN) and "Battery Charge Stop Percentage" Config will be lost.
