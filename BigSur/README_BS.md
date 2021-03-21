@@ -2,7 +2,7 @@
 
 Replace three files below. (But it is not important.)
 
-If Darwin occurred ACPI Error after install, Please contact me.
+If ACPI Error occurred after install, Please contact me.
 
 - EFI/OC/ACPI/SSDT-ACPI.aml
 - EFI/OC/ACPI/SSDT-LID.aml
