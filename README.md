@@ -1,4 +1,5 @@
 # LG 14U530 Hackintosh
+It tested with macOS Catalina, and Big Sur.
 
 ## Before You Install...
 1. Choose CFGLock.efi in OpenCore Boot Menu.
