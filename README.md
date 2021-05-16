@@ -2,9 +2,13 @@
 It tested with macOS Catalina, and Big Sur.
 
 ## Before You Install...
-1. Choose ControlMsrE2.efi in OpenCore Boot Menu.
-2. Disable CFG-Lock through following the instructions on the screen.
-3. Press Ctrl+Alt+Del, and then start installation.
+1. Choose OpenShell.efi in OpenCore Boot Menu.
+2. Type `FS0:`, and `ls`. 
+- 2-1. If shown EFI Folder, Go to the 3.
+- 2-2. If not, Type `FS1:`, and `ls`. If not too, Type `FS2`, and `ls`, ...
+3. Type `cd EFI\OC\Tools`.
+4. Type `ControlMsrE2.efi unlock`. Follow the instructions.
+5. Press Ctrl+Alt+Del, and start installation.
 
 ## System Spec
 | Components | Details |
@@ -27,7 +31,7 @@ It tested with macOS Catalina, and Big Sur.
 ## Reported Issues
 - VGA Output works, but disconnect detection is not working.
 - Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernate mode 25.
-- [Itlwm] After waking from sleep, Wi-Fi doesn't work.
+- After waking from sleep, Wi-Fi doesn't work.
 - [Itlwm] Bluetooth has short range because of Wi-Fi.
 - [VoodooPS2] When using Trackpad at first after booting, its pointing is odd.
 - If you attempt to hibernate, mini PCIe (Intel WLAN) and "Battery Charge Stop Percentage" Config will be lost.
