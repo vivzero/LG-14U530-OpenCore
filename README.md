@@ -18,7 +18,7 @@ It tested with macOS Catalina, and Big Sur.
 | dGPU | NVIDIA GeForce GT 720M |
 | RAM | 2x HMT451S6BFR8A-PB |
 | LCD | LP140WF1-SPJ1 (LGD0406) |
-| WLAN | Intel Dual Band AC 7260 |
+| WLAN | ~~AC 7260~~ AW-CE123H |
 | Audio | Realtek ALC282 |
 | BIOS | 14U530F9 (04/17/2014) |
 
@@ -29,9 +29,9 @@ It tested with macOS Catalina, and Big Sur.
 - Secure Boot Option: Off
 
 ## Reported Issues
-- VGA Output works, but disconnect detection is not working.
+- VGA Output works, but it has several problems related to lid and sleeping.
 - Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernate mode 25.
-- After waking from sleep, Wi-Fi doesn't work.
+- [Itlwm] After waking from sleep, Wi-Fi doesn't work.
 - [Itlwm] Bluetooth has short range because of Wi-Fi.
-- [VoodooPS2] When using Trackpad at first after booting, its pointing is odd.
-- If you attempt to hibernate, mini PCIe (Intel WLAN) and "Battery Charge Stop Percentage" Config will be lost.
+- Trackpad works, but it's not good because of hardware limitation. I recommend to use Magic Trackpad 2...
+- If you attempt to hibernate, mini PCIe and "Battery Charge Stop Percentage" Config (in BIOS Setup) will be lost.
