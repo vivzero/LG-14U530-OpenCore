@@ -29,6 +29,7 @@ It tested with macOS Catalina, and Big Sur.
 - Secure Boot Option: Off
 
 ## Reported Issues
+- Fn + Up and Fn + Down works, but you have to press several times.
 - VGA Output works, but it has several problems related to lid and sleeping.
 - Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernate mode 25. (HibernationFixup can't help)
 - [Itlwm] After waking from sleep, Wi-Fi doesn't work.
