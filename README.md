@@ -30,8 +30,8 @@ It tested with macOS Catalina, and Big Sur.
 
 ## Reported Issues
 - VGA Output works, but it has several problems related to lid and sleeping.
-- Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernate mode 25.
+- Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernate mode 25. (HibernationFixup can't help)
 - [Itlwm] After waking from sleep, Wi-Fi doesn't work.
 - [Itlwm] Bluetooth has short range because of Wi-Fi.
 - Trackpad works, but it's not good because of hardware limitation. I recommend to use Magic Trackpad 2...
-- If you attempt to hibernate, mini PCIe and "Battery Charge Stop Percentage" Config (in BIOS Setup) will be lost.
+- If you attempt to hibernate, mini PCIe(Itlwm Only) and "Battery Charge Stop Percentage" Config (in BIOS Setup) will be lost.
