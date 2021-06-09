@@ -1151,11 +1151,11 @@
 			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
-			<false/>
+			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ProvideCurrentCpuInfo</key>
-			<true/>
+			<false/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>999</integer>
 			<key>ThirdPartyDrives</key>
