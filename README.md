@@ -29,9 +29,9 @@ It tested with macOS Catalina, and Big Sur.
 - Secure Boot Option: Off
 
 ## Reported Issues
-- Fn + Up and Fn + Down works, but you have to press several times.
+- Both Fn + Up and Fn + Down works only as brightness up or down, more experiments are needed.
 - VGA Output works, but it has several problems related to lid and sleeping.
-- Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernation. (HibernationFixup can't help)
+- Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernation.
 - [Itlwm] After waking from sleep, Wi-Fi doesn't work.
 - [Itlwm] Bluetooth has short range because of Wi-Fi.
 - Trackpad works, but it's not good because of hardware limitation. I recommend to use Magic Trackpad 2...
