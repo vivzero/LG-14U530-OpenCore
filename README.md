@@ -2,13 +2,8 @@
 It tested with macOS Catalina, and Big Sur.
 
 ## Before You Install...
-1. Choose OpenShell.efi in OpenCore Boot Menu.
-2. Type `FS0:`, and `ls`. 
-- 2-1. If shown EFI Folder, Go to the 3.
-- 2-2. If not, Type `FS1:`, and `ls`. If not too, Type `FS2`, and `ls`, ...
-3. Type `cd EFI\OC\Tools`.
-4. Type `ControlMsrE2.efi unlock`. Follow the instructions.
-5. Press Ctrl+Alt+Del, and start installation.
+- You should type `ControlMsrE2.efi unlock` by using OpenShell.efi.
+- __Or__ enable `AppleXcpmCfgLock` in config.plist.
 
 ## System Spec
 | Components | Details |
@@ -29,10 +24,7 @@ It tested with macOS Catalina, and Big Sur.
 - Secure Boot Option: Off
 
 ## Reported Issues
-- Both Fn + Up and Fn + Down works only as brightness up or down, more experiments are needed.
+- Some features won't work: DGPU, SD Card reader, most of function keys, and hibernation.
 - VGA Output works, but it has several problems related to lid and sleeping.
-- Some features won't work: dGPU, SD Card Reader, Windows-only Function Keys, and hibernation.
-- [Itlwm] After waking from sleep, Wi-Fi doesn't work.
-- [Itlwm] Bluetooth has short range because of Wi-Fi.
-- Trackpad works, but it's not good because of hardware limitation. I recommend to use Magic Trackpad 2...
-- If you attempt to hibernate, mini PCIe and "Battery Charge Stop Percentage" Config (in BIOS Setup) will be lost.
+- If you attempt to hibernation, mPCIe Device (WLAN) will be disabled.
+- Itlwm, for Intel WLAN, has some problems: Wi-Fi is gone after sleeping. unstable Bluetooth with Wi-Fi.
