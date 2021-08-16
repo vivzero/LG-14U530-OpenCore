@@ -15,7 +15,7 @@ It tested with macOS Catalina, and Big Sur.
 | dGPU | NVIDIA GeForce GT 720M |
 | RAM | 2x HMT451S6BFR8A-PB |
 | LCD | LP140WF1-SPJ1 (LGD0406) |
-| WLAN | ~~AC 7260~~ AW-CE123H |
+| WLAN | AC 7260 |
 | Audio | Realtek ALC282 |
 | BIOS | 14U530F9 (04/17/2014) |
 
@@ -26,7 +26,8 @@ It tested with macOS Catalina, and Big Sur.
 - Secure Boot Option: Off
 
 ## Reported Issues
-- Some features won't work: DGPU, SD Card reader, most of function keys, and hibernation.
+- Some features won't work: DGPU, SD Card reader, and hibernation.
 - VGA Output works, but it has several problems related to lid and sleeping.
 - If you attempt to hibernation, mPCIe Device (WLAN) will be disabled.
-- Itlwm, for Intel WLAN, has some problems: Wi-Fi is gone after sleeping. unstable Bluetooth with Wi-Fi.
+- Itlwm, for Intel WLAN, has some problems: Wi-Fi is gone after sleeping.. Bluetooth is unstable..
+- Disk partition speed is very slow. (a few minutes)
