@@ -29,5 +29,4 @@ It tested with macOS Catalina, and Big Sur.
 - Some features won't work: DGPU, SD Card reader, and hibernation.
 - VGA Output works, but it has several problems related to lid and sleeping.
 - If you attempt to hibernation, mPCIe Device (WLAN) will be disabled.
-- Itlwm, for Intel WLAN, has some problems: Wi-Fi is gone after sleeping.. Bluetooth is unstable..
-- Disk partition speed is very slow. (a few minutes)
+- Itlwm, for Intel WLAN, has some problems: Wi-Fi is gone after sleeping, and Bluetooth is unstable.
