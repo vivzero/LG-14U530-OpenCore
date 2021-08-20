@@ -30,4 +30,4 @@ It tested with macOS Catalina, and Big Sur.
 - VGA Output works, but it has several problems related to lid and sleeping.
 - If you attempt to hibernation, mPCIe Device (WLAN) will be disabled.
 - Itlwm, for Intel WLAN, has some problems: Wi-Fi is gone after sleeping, and Bluetooth is unstable.
-- (OC 0.7.2) Currently, Kernel Panic is shown sometimes when booting.
+- (OC 0.7.2) Currently, Kernel Panic is shown sometimes when booting. I think that latest Bluetooth kext is problematic.
