@@ -31,6 +31,4 @@ It tested with macOS Catalina, and Big Sur.
 - Sometimes, a "dummy" external monitor (connected via VGA) is detected after wake up.
 - (Itlwm) Wi-Fi doesn't work after wake up.
 - (Itlwm) Bluetooth is unstable when Wi-Fi is enabled.
-
-## Card Reader (RTS5129, USB2.0-CRW)
-Realtek USB-based card reader is now supported. You can add the kext manually. See [this](https://github.com/0xFireWolf/RealtekCardReader)
+- (RealtekCardReader) Card reader doesn't work after wake up. kernel panic occurred when card is inserted.
