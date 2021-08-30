@@ -32,3 +32,4 @@ It tested with macOS Catalina, and Big Sur.
 - (Itlwm) Wi-Fi doesn't work after wake up.
 - (Itlwm) Bluetooth is unstable when Wi-Fi is enabled.
 - (RealtekCardReader) Card reader doesn't work after wake up. kernel panic occurred when card is inserted.
+- kernel panic occurred by IntelBluetoothFirmware. (rarely)
