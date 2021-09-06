@@ -30,5 +30,4 @@ It tested with macOS Catalina, and Big Sur.
 - ⚠️ VGA output works, but it can't detect unplugging.
 - Sometimes, a "dummy" external monitor (connected via VGA) is detected after wake up.
 - ([Itlwm](https://github.com/OpenIntelWireless/itlwm)) Wi-Fi doesn't work after wake up.
-- ([IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)) ~~Bluetooth is unstable when Wi-Fi is enabled.~~ (disabled these kexts to solve issue; Bluetooth still works except turning off)
 - ([RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader)) Card reader doesn't work after wake up. kernel panic occurred when card is inserted.
