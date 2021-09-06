@@ -30,4 +30,4 @@ It tested with macOS Catalina, and Big Sur.
 - ⚠️ VGA output works, but it can't detect unplugging.
 - Sometimes, a "dummy" external monitor (connected via VGA) is detected after wake up.
 - ([Itlwm](https://github.com/OpenIntelWireless/itlwm)) Wi-Fi doesn't work after wake up.
-- ([RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader)) Card reader doesn't work after wake up. kernel panic occurred when card is inserted.
+- ([RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader)) Card reader doesn't work after wake up. kernel panic occurred when card is inserted. (Disabled by default; You can enable kexts manually by adding kexts/configs)
