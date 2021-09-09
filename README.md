@@ -13,9 +13,9 @@ It tested with macOS Catalina, and Big Sur.
 | CPU | Intel Core i5-4200U |
 | iGPU | Intel HD Graphics 4400 |
 | dGPU | NVIDIA GeForce GT 720M |
-| RAM | 2x HMT451S6BFR8A-PB |
+| RAM | HMT451S6BFR8A-PB |
 | LCD | LP140WF1-SPJ1 (LGD0406) |
-| WLAN | AC 7260 |
+| WLAN | Dual Band AC 7260 |
 | Audio | Realtek ALC282 |
 | BIOS | 14U530F9 (04/17/2014) |
 
