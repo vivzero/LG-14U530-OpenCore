@@ -1,8 +1,6 @@
 # LG 14U530 Hackintosh
 It tested with macOS Catalina, and Big Sur.
 
-![](Image.jpeg)
-
 ## Before You Install...
 - You should type `ControlMsrE2.efi unlock` by using OpenShell.efi.
 - __Or__ enable `AppleXcpmCfgLock` in config.plist.
