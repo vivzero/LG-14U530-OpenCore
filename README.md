@@ -24,8 +24,8 @@ It tested with macOS Catalina, and Big Sur.
 - Secure Boot Option: Off
 
 ## Reported Issues
-- ❌ DGPU and hibernation doesn't work.
-- ⚠️ VGA output works, but it can't detect unplugging.
-- Sometimes, a "dummy" external monitor (connected via VGA) is detected after wake up.
+- DGPU and hibernation doesn't work.
+- VGA output works, but it can't detect unplugging.
+- Sometimes, a "dummy" external monitor (connected via VGA) is detected after wake up. It causes clamshell mode when lid is closed.
 - ([Itlwm](https://github.com/OpenIntelWireless/itlwm)) Wi-Fi doesn't work after wake up.
-- ([RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader)) Card reader doesn't work after wake up. kernel panic occurred when card is inserted. (Disabled by default; You can enable kexts manually by adding kexts/configs)
+- ([RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader)) Card reader doesn't work after wake up. kernel panic occurred when card is inserted. (Disabled by default)
